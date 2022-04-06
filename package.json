@@ -1,0 +1,13 @@
+{
+  "name": "e-commerce-raw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass./sass/style.scss style.css --watch",
+    "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
+  },
+  "author": "Piyal Biswas",
+  "license": "ISC"
+}
